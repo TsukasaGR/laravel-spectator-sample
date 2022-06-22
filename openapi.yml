@@ -1,0 +1,51 @@
+openapi: 3.1.0
+info:
+  title: sample
+  version: '1.0'
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /api/sample:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+      operationId: get-api-sample
+      parameters: []
+    parameters: []
+    post:
+      summary: ''
+      operationId: post-api-sample
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: number
+                  status:
+                    type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: number
+              required:
+                - id
+components:
+  schemas: {}
