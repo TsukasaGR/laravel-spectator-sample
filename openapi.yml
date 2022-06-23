@@ -3,9 +3,9 @@ info:
   title: sample
   version: '1.0'
 servers:
-  - url: 'http://localhost:3000'
+  - url: 'http://localhost'
 paths:
-  /api/sample:
+  '/api/sample/{id}':
     get:
       summary: Your GET endpoint
       tags: []
@@ -20,8 +20,13 @@ paths:
                   status:
                     type: string
       operationId: get-api-sample
-      parameters: []
-    parameters: []
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+  /api/sample:
     post:
       summary: ''
       operationId: post-api-sample
