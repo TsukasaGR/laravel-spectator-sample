@@ -27,7 +27,7 @@ return [
     'sources' => [
         'local' => [
             'source' => 'local',
-            'base_path' => env('SPEC_PATH', '.'),
+            'base_path' => env('SPEC_PATH', ''),
         ],
 
         'remote' => [
