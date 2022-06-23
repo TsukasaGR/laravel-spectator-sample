@@ -1,6 +1,7 @@
 ## このリポジトリ is 何？
 
-Qiita記事を後ほど貼る
+以下記事用のサンプルコードです
+https://qiita.com/TsukasaGR/items/6e4b67784f02241b8a1c
 
 ## 使い方
 
@@ -14,4 +15,4 @@ Qiita記事を後ほど貼る
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The source code is is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
